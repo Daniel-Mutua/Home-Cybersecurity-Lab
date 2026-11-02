@@ -1,4 +1,4 @@
-# Home Cybersecurity Lab
+# Home-Cybersecurity-Lab
 
 ## Overview
 
