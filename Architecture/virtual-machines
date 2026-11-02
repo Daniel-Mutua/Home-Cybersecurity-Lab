@@ -1,1 +1,39 @@
+Virtual Machine Inventory
 
+1. Kali Linux
+
+| Property | Configuration |
+
+| Operating System | Kali Linux |
+| Base Distribution | Debian |
+| Virtualization Platform | Oracle VirtualBox |
+| RAM Allocation | 4 GB |
+| CPU cores Allocated | 2 |
+| Installation Status | Installed |
+| Boot Status | Working |
+| Role | Security workstation |
+
+### Responsibilities
+- Authorized network assessment.
+- Vulnerability assessment of lab systems.
+- Security testing.
+- Documentation of findings.
+
+2. Ubuntu Server
+
+| Property | Configuration |
+|---|---|
+| Operating System | Ubuntu Server LTS |
+| Virtualization Platform | Oracle VirtualBox |
+| RAM Allocation | 4GB |
+| Installation Status | Installed |
+| Boot Status | Working |
+| Role | Server and defensive environment |
+
+3. Wazuh Monitoring Server
+
+| Property | Configuration |
+|---|---|
+| Operating System | To be determined |
+| Installation Status | Planned |
+| Role | Centralized security monitoring and log analysis |
