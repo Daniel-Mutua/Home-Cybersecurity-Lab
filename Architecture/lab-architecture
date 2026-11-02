@@ -14,7 +14,7 @@ The laboratory runs on a Windows host operating system using Oracle VirtualBox.
 | Host Operating System | Windows |
 | Virtualization Platform | Oracle VirtualBox |
 | Security Workstation | Kali Linux |
-| Server Environment | Ubuntu Server LTS (planned) |
+| Server Environment | Ubuntu Server LTS |
 | Network Configuration | Isolated Virtual Network (planned) |
 
 3. Virtual Machines
