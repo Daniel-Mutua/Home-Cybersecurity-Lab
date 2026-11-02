@@ -1,5 +1,3 @@
-# Home-Cybersecurity-Lab
-Practical cybersecurity lab for network security, vulnerability assessment, Linux administration and security monitoring.
 # Home Cybersecurity Lab
 
 ## Overview
