@@ -1,1 +1,76 @@
 
+# Home Cybersecurity Lab Architecture
+
+## 1. Project Overview
+
+The Home Cybersecurity Lab is a virtualized cybersecurity training environment designed to provide practical experience in network security, vulnerability assessment, system hardening, and security monitoring.
+
+The laboratory runs on a Windows host operating system using Oracle VirtualBox.
+
+## 2. Host Environment
+
+| Component | Configuration |
+|---|---|
+| Host Operating System | Windows |
+| Virtualization Platform | Oracle VirtualBox |
+| Security Workstation | Kali Linux |
+| Server Environment | Ubuntu Server LTS (planned) |
+| Network Configuration | Isolated Virtual Network (planned) |
+
+## 3. Virtual Machines
+
+### Kali Linux
+Purpose:
+- Security assessment workstation.
+- Network discovery within the authorized lab.
+- Vulnerability assessment of designated lab systems.
+- Security testing and documentation.
+
+Status: Installed.
+
+### Ubuntu Server
+Purpose:
+- Host lab services and applications.
+- Provide a defensive Linux environment.
+- Generate system logs for monitoring.
+- Support security hardening exercises.
+
+Status: Planned.
+
+### Wazuh Monitoring Server
+Purpose:
+- Centralized log collection.
+- Security event monitoring.
+- Detection and investigation of suspicious activity.
+
+Status: Planned.
+
+## 4. Network Architecture
+
+The virtual machines will communicate through an isolated VirtualBox network.
+
+The network will be configured to prevent unintended access to external systems.
+
+Network configuration will be documented during Phase 2.
+
+## 5. Security Principles
+
+- All security testing will take place on authorized laboratory systems.
+- Vulnerable applications will remain isolated from public networks.
+- Administrative access will be restricted.
+- VM snapshots will be used before major configuration changes.
+- Security findings and remediation activities will be documented.
+
+## 6. Project Phases
+
+1. Virtualization environment setup.
+2. Network configuration.
+3. Authorized security assessment.
+4. Security monitoring and log analysis.
+5. Documentation and final evaluation.
+
+## 7. Current Status
+
+Kali Linux is installed in Oracle VirtualBox on a Windows host.
+
+Ubuntu Server and the isolated lab network are pending setup.
